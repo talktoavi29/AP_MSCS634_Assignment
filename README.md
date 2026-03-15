@@ -36,7 +36,7 @@ Agglomerative Hierarchical Clustering with Ward linkage was applied with differe
 
 Performance (n_clusters=3):
 - Silhouette Score: 0.2774
-- Homogeneity Score: ~0.42
+- Homogeneity Score: 0.7904
 
 n_clusters=3 aligned best with the known 3 wine cultivars. The dendrogram confirmed this by showing large merge distances between the final three groupings, with a natural cut point around distance 25.
 
