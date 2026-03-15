@@ -35,7 +35,7 @@ Confirmed 3 true classes with a reasonable distribution across the dataset.
 Agglomerative Hierarchical Clustering with Ward linkage was applied with different values of n_clusters (2, 3, 4, 5).
 
 Performance (n_clusters=3):
-- Silhouette Score: ~0.28
+- Silhouette Score: 0.2774
 - Homogeneity Score: ~0.42
 
 n_clusters=3 aligned best with the known 3 wine cultivars. The dendrogram confirmed this by showing large merge distances between the final three groupings, with a natural cut point around distance 25.
@@ -61,7 +61,7 @@ Scatter plots highlighting noise points in red were generated for four different
 
 | Algorithm | Clusters | Noise Points | Silhouette |
 |-----------|----------|-------------|------------|
-| Hierarchical (n=3) | 3 | 0 | ~0.28 |
+| Hierarchical (n=3) | 3 | 0 | 0.2774 |
 | DBSCAN (best params) | varies | varies | varies |
 
 Note: Exact values depend on the run. Hierarchical clustering consistently outperformed DBSCAN on this dataset.
